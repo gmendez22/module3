@@ -1,0 +1,111 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #8c4915;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-brand h1 { /* Restaurant name */
+    font-family: 'Lora', serif;
+    color:#808000;
+    font-size: 1.9em;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .70;
+    padding-bottom: 20px;
+}
+
+#nav-list {
+    margin-top: 10px;
+    font-size: 1.3em
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #12611e;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -33px;
+}
+
+#nav-list li p {
+    color: #366775;
+
+}
+#nav-list p:hover {/*al pasar el mouse sobre los iconos hay un color de fondo blanco*/
+  background: #E7E7E7;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+
+#home-tiles .item-text {
+    background: #947746;
+    padding: 10px;
+    color:#7FFF00;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: justify;
+}
+
+#home-tiles .item-text p {
+    font-size: 1.3em;
+    font-weight: 400;
+    color:#00008B;
+}
+#menu{
+     font-size: 2em;
+    font-weight: 400;
+    color:#BDB76B;
+}
+
+/* END OF HOME PAGE */
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 10px;
+        font-size: 4vw; 
+    }
+
+    /* End Header */
+
+    /* Home Page */
+    .menu-item-description {
+        text-align: center;
+    }
+
+}
